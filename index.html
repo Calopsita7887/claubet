@@ -1,1 +1,157 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Casino VIP 👑</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: 'Playfair Display', serif;
+      color: #fff;
+      text-align: center;
+      overflow-x: hidden;
+
+      /* FONDO CON TU IMAGEN */
+      background:
+        linear-gradient(
+          rgba(0,0,0,0.55),
+          rgba(0,0,0,0.85)
+        ),
+        url("casino.png") center / cover no-repeat fixed;
+    }
+
+    .container {
+      max-width: 420px;
+      width: 100%;
+      padding: 120px 25px 60px;
+      margin: 0 auto;
+    }
+
+    /* 👑 CORONA */
+    .crown {
+      font-size: 4.8rem;
+      margin-bottom: 15px;
+      filter: drop-shadow(0 0 30px rgba(212,175,55,0.9));
+    }
+
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 2.8rem;
+      letter-spacing: 6px;
+      margin-bottom: 10px;
+      color: #d4af37;
+      text-shadow: 0 0 25px rgba(212,175,55,0.6);
+    }
+
+    .subtitle {
+      font-size: 1rem;
+      letter-spacing: 4px;
+      opacity: 0.9;
+      margin-bottom: 25px;
+      color: #f5e6a8;
+    }
+
+    .divider {
+      width: 120px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #d4af37, transparent);
+      margin: 0 auto 25px;
+    }
+
+    .text {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      margin-bottom: 35px;
+      opacity: 0.95;
+    }
+
+    /* 🔞 +18 */
+    .age-warning {
+      font-size: 0.85rem;
+      letter-spacing: 2px;
+      opacity: 0.85;
+      margin-bottom: 35px;
+    }
+
+    /* 📲 BOTONES */
+    .btn {
+      display: block;
+      padding: 18px;
+      margin-bottom: 18px;
+      border-radius: 10px;
+      border: 1px solid #d4af37;
+      color: #fff;
+      text-decoration: none;
+      font-family: 'Cinzel', serif;
+      letter-spacing: 3px;
+      background: rgba(0,0,0,0.65);
+      box-shadow: 0 15px 40px rgba(0,0,0,0.8);
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      transform: scale(1.04);
+      box-shadow: 0 0 35px rgba(212,175,55,0.6);
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 0.7rem;
+      letter-spacing: 2px;
+      opacity: 0.6;
+    }
+
+    @media (max-width: 400px) {
+      h1 {
+        font-size: 2.3rem;
+        letter-spacing: 4px;
+      }
+
+      .crown {
+        font-size: 4.2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="crown">👑</div>
+
+    <h1>CASINO VIP</h1>
+    <div class="subtitle">ACCESO EXCLUSIVO</div>
+
+    <div class="divider"></div>
+
+    <p class="text">
+      Entraste al acceso correcto.<br>
+      Atención directa y premios reales.
+    </p>
+
+    <div class="age-warning">
+      🔞 SOLO MAYORES DE 18 AÑOS
+    </div>
+
+    <!-- WHATSAPP (después cambiás los links) -->
+    <a href="#" class="btn">WHATSAPP PRINCIPAL</a>
+    <a href="#" class="btn">WHATSAPP ALTERNATIVO</a>
+
+    <div class="footer">
+      JUGÁ RESPONSABLEMENTE
+    </div>
+  </div>
+
+</body>
+</html>
